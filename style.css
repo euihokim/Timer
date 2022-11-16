@@ -1,20 +1,10 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
 
 body {
-    background: radial-gradient(
-            96.74% 276.79% at 3.59% 5.28%,
-            #f0f4ff 0%,
-            #a5b6ee 100%
-        )
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    background: linear-gradient(to right, #f0f4ff, #a5b6ee);
 }
-
 .wrapper {
     margin: 0 auto;
-    /* width: 100vh; */
-    height: 100vh;
 }
 
 header {
@@ -92,6 +82,13 @@ article .line-bottom {
     border: 1px solid #354971;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    line-height: 76px;
+    font-family: "Pretendard";
+    cursor: pointer;
 }
 
 .wrapper-btn {
